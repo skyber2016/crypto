@@ -9,6 +9,7 @@ rootCommand.Add(AddCommand.Create());
 rootCommand.Add(ListCommand.Create());
 rootCommand.Add(EncryptCommand.Create());
 rootCommand.Add(DecryptCommand.Create());
+rootCommand.Add(RemoveCommand.Create());
 rootCommand.Add(UpdateCommand.Create());
 
 return await rootCommand.Parse(args).InvokeAsync();

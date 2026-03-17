@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-03-17
+
+### Added
+- `crypto remove <name>` — Remove a specific key profile.
+- `crypto remove --all` — Remove all profiles with confirmation prompt.
+
+---
+
 ## [1.2.0] - 2026-03-17
 
 ### Added
