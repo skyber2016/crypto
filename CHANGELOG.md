@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.1] - 2026-03-17
+
+### Added
+- `crypto -e <text>` / `crypto --encrypt <text>` — Short alias for `crypto encrypt`.
+- `crypto -d <base64>` / `crypto --decrypt <base64>` — Short alias for `crypto decrypt`.
+- Supports combined usage with `-n` (profile name) and `-k` (inline key).
+
+---
+
 ## [1.3.0] - 2026-03-17
 
 ### Added
